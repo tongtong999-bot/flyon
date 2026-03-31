@@ -3,123 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galiview Drone - Redefining Aerial Innovation</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts for a modern, tech-savvy look -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta name="description" content="Galiview - Cutting-edge drone technology. See beyond limits with our innovative aerial solutions.">
+    <title>Galiview — See Beyond Limits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <nav class="container">
+    <!-- ═══ HEADER ═══ -->
+    <header class="main-header">
+        <div class="container header-content">
             <div class="logo">
-                <a href="#hero">Galiview Drone</a>
+                <a href="index.html">GALIVIEW</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="#products">Products</a></li>
-                <li><a href="#company">Company</a></li>
-                <li><a href="#support">Services & Support</a></li>
-            </ul>
-        </nav>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Product</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero-section">
-            <!-- Background image inside the hero section for better control -->
-            <img class="hero-bg-image" src="assets/hero-drone.jpg" alt="Galiview Drone flying over a futuristic landscape">
-            <div class="hero-content container">
-                <h1>Galiview Drone: Redefining Aerial Innovation</h1>
-                <p>Leading the future of unmanned aerial vehicles with precision, power, and unparalleled vision.</p>
-                <a href="#products" class="btn">Explore Our Technology</a>
-            </div>
-        </section>
-
-        <!-- Product Introduction -->
-        <section id="products" class="section-dark">
-            <div class="container">
-                <h2>Our Cutting-Edge Products</h2>
-                <div class="product-grid">
-                    <div class="product-card">
-                        <!-- Using product-scout.jpg from your assets for Pro Series -->
-                        <img src="assets/product-scout.jpg" alt="Galiview Pro Series Drone">
-                        <h3>Galiview Pro Series: The Visionary</h3>
-                        <p>Experience unparalleled aerial photography and cinematography. The Galiview Pro Series features an advanced 8K camera, 360-degree obstacle avoidance, and a flight time of up to 45 minutes. Engineered for professionals seeking perfection in every shot.</p>
-                        <a href="#" class="btn-small">Learn More</a>
-                    </div>
-                    <div class="product-card">
-                        <!-- Placeholder for Explorer. You'll need to add an image like 'product-explorer.jpg' to your assets folder. -->
-                        <img src="assets/support-console.jpg" alt="Galiview Explorer Drone">
-                        <h3>Galiview Explorer: Adventure Unleashed</h3>
-                        <p>Compact, durable, and ready for any adventure. The Galiview Explorer boasts intuitive controls, a 4K stabilized camera, and extreme portability. Perfect for outdoor enthusiasts and travelers who want to capture their journeys from a new perspective.</p>
-                        <a href="#" class="btn-small">Learn More</a>
-                    </div>
-                    <div class="product-card">
-                        <!-- Placeholder for AgriTech. You'll need to add an image like 'product-agritech.jpg' to your assets folder. -->
-                        <img src="assets/hero-drone.jpg" alt="Galiview AgriTech Drone">
-                        <h3>Galiview AgriTech: Precision Agriculture</h3>
-                        <p>Revolutionize farming with our specialized agricultural drones. Equipped with multi-spectral sensors and AI analysis, Galiview AgriTech solutions optimize crop health, monitor irrigation, and enhance yield efficiency. Smart farming starts here.</p>
-                        <a href="#" class="btn-small">Learn More</a>
-                    </div>
+    <!-- ═══ HERO ═══ -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container" style="position: relative; z-index: 10; display: contents;">
+            <div class="hero-content">
+                <div class="hero-badge">See Beyond Limits</div>
+                <h1>Welcome to <span class="gradient-text">Galiview</span></h1>
+                <p>Experience the future of aerial technology with Galiview — delivering precision, innovation, and stunning imagery for creators and professionals worldwide.</p>
+                <div class="hero-actions">
+                    <a href="product.html" class="btn btn-primary btn-large">Explore Product</a>
+                    <a href="#contact" class="btn btn-secondary btn-large">Get in Touch</a>
                 </div>
             </div>
-        </section>
-
-        <!-- Company Profile -->
-        <section id="company" class="section-dark">
-            <div class="container company-layout">
-                <div class="company-text">
-                    <h2>About Galiview Drone</h2>
-                    <p>At Galiview Drone, we are driven by a passion for innovation and a commitment to excellence in aerial technology. Founded in 2025, our mission is to empower individuals and industries with state-of-the-art drone solutions that push the boundaries of what's possible.</p>
-                    <p>Our team comprises visionary engineers, designers, and aviation experts dedicated to crafting drones that are not just tools, but extensions of creativity and efficiency. We believe in meticulous research, rigorous testing, and user-centric design to ensure every Galiview product delivers unparalleled performance, reliability, and an intuitive user experience. From advanced imaging to industrial applications, Galiview Drone is charting the course for the next generation of aerial intelligence.</p>
-                </div>
+            <div class="hero-image">
+                <img src="images/galiview.png" alt="Galiview Drone">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Services & Support -->
-        <section id="support" class="section-dark">
-            <div class="container">
-                <h2>Services & Support</h2>
-                <p class="section-intro">Your flight journey is important to us. Galiview Drone offers comprehensive support to ensure optimal performance and peace of mind.</p>
-                <div class="support-grid">
-                    <div class="support-item">
-                        <!-- Using support-console.jpg from your assets for Technical Assistance -->
-                        <i class="icon fas fa-headset"></i> <!-- Font Awesome 耳机图标，代表技术支持 -->
-                        <h3>Technical Assistance</h3>
-                        <p>Our expert support team is available 24/7 to assist with any technical queries, setup guidance, or troubleshooting to keep your Galiview drone flying smoothly.</p>
-                        <a href="#" class="btn-text">Contact Support &rarr;</a>
-                    </div>
-                    <div class="support-item">
-                        <i class="icon fas fa-tools"></i> <!-- Placeholder for Font Awesome icon -->
-                        <h3>Warranty & Repairs</h3>
-                        <p>All Galiview drones come with a robust warranty. We provide efficient repair services and genuine replacement parts to ensure longevity and peak performance.</p>
-                        <a href="#" class="btn-text">View Warranty Policy &rarr;</a>
-                    </div>
-                    <div class="support-item">
-                        <i class="icon fas fa-cloud-download-alt"></i> <!-- Placeholder for Font Awesome icon -->
-                        <h3>Downloads & Resources</h3>
-                        <p>Access the latest firmware updates, user manuals, and creative guides. Stay updated with new features and unlock your drone's full potential.</p>
-                        <a href="#" class="btn-text">Go to Downloads &rarr;</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
         <div class="container">
-            <p>&copy; 2023 Galiview Drone. All rights reserved. | Innovation in Flight.</p>
+            <div class="stats-grid">
+                <div class="stat-item reveal delay-1">
+                    <span class="stat-number">25min</span>
+                    <span class="stat-label">Flight Time</span>
+                </div>
+                <div class="stat-item reveal delay-2">
+                    <span class="stat-number">4K</span>
+                    <span class="stat-label">Video Quality</span>
+                </div>
+                <div class="stat-item reveal delay-3">
+                    <span class="stat-number">249g</span>
+                    <span class="stat-label">Lightweight</span>
+                </div>
+                <div class="stat-item reveal delay-4">
+                    <span class="stat-number">10km</span>
+                    <span class="stat-label">Range</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ FEATURES SECTION ═══ -->
+    <section id="features" class="features-section section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">Why Galiview</span>
+                <h2>Innovation <span class="gradient-text">At Its Best</span></h2>
+                <div class="neon-divider"></div>
+                <p class="section-description">Cutting-edge technology meets intuitive design for an unparalleled aerial experience.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card reveal delay-1">
+                    <h4>4K UHD Camera</h4>
+                    <p>Capture stunning 4K video and 48MP photos with professional-grade image quality.</p>
+                </div>
+                <div class="feature-card reveal delay-2">
+                    <h4>Intelligent Tracking</h4>
+                    <p>Advanced ActiveTrack technology keeps your subject perfectly framed in every shot.</p>
+                </div>
+                <div class="feature-card reveal delay-3">
+                    <h4>360° Obstacle Avoidance</h4>
+                    <p>Fly with confidence using comprehensive sensors that detect obstacles from all directions.</p>
+                </div>
+                <div class="feature-card reveal delay-4">
+                    <h4>25min Flight Time</h4>
+                    <p>Extended battery life lets you capture more footage on a single charge.</p>
+                </div>
+                <div class="feature-card reveal delay-5">
+                    <h4>Smart Flight Modes</h4>
+                    <p>One-tap cinematic shots and autonomous flight paths for effortless professional footage.</p>
+                </div>
+                <div class="feature-card reveal delay-6">
+                    <h4>10km Transmission</h4>
+                    <p>Extended range ensures you stay connected and in control even at long distances.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PRODUCT SHOWCASE ═══ -->
+    <section id="product" class="products-brief-section section-padding">
+        <div class="container">
+            <div class="product-showcase">
+                <div class="product-image-wrapper reveal-left">
+                    <img src="images/galiview2.png" alt="Galiview Pro Drone">
+                </div>
+                <div class="product-details reveal-right">
+                    <span class="section-label">Our Product</span>
+                    <h3>Galiview <span class="gradient-text">Pro</span></h3>
+                    <p>A powerful yet accessible drone designed for creators and professionals who demand excellence.</p>
+                    <div class="product-spec-chips">
+                        <span class="spec-chip">4K @ 60fps</span>
+                        <span class="spec-chip">48MP Camera</span>
+                        <span class="spec-chip">Smart Tracking</span>
+                        <span class="spec-chip">Easy to Use</span>
+                    </div>
+                    <a href="product.html" class="btn btn-primary">View Details →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ ABOUT PREVIEW ═══ -->
+    <section id="about" class="about-brief-section section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">About Us</span>
+                <h2>Our <span class="gradient-text">Mission</span></h2>
+                <div class="neon-divider"></div>
+                <p class="section-description">Pioneering aerial technology to make professional imaging accessible to everyone.</p>
+            </div>
+
+            <div class="about-brief-inner">
+                <div class="about-brief-text reveal-left">
+                    <p>Founded in 2022, Galiview is reshaping the boundaries of what's possible in drone technology. We combine cutting-edge research with exceptional engineering to create drones that empower creators, professionals, and visionaries.</p>
+                    <p>Our mission is to democratize aerial photography and videography while delivering professional-grade performance, smart features, and intuitive operation that anyone can master.</p>
+                    <a href="about.html" class="btn btn-secondary">Learn More →</a>
+                </div>
+                <div class="about-features-grid reveal-right">
+                    <div class="about-feature-item">
+                        <span class="feature-number">01</span>
+                        <h4>Innovation</h4>
+                        <p>Advanced flight control systems and intelligent features</p>
+                    </div>
+                    <div class="about-feature-item">
+                        <span class="feature-number">02</span>
+                        <h4>Quality</h4>
+                        <p>Rigorous testing ensures reliability and performance</p>
+                    </div>
+                    <div class="about-feature-item">
+                        <span class="feature-number">03</span>
+                        <h4>Support</h4>
+                        <p>Comprehensive customer service and resources</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-label">Contact</span>
+                <h2>Get in <span class="gradient-text">Touch</span></h2>
+                <div class="neon-divider"></div>
+                <p class="section-description">Have questions? Reach out to our team anytime.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h3>Contact Information</h3>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">📱</div>
+                        <div class="contact-info-text">
+                            <strong>Phone</strong>
+                            <p>+1 702-266-3242</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">📧</div>
+                        <div class="contact-info-text">
+                            <strong>Email</strong>
+                            <a href="mailto:info@galiviewtech.com">info@galiviewtech.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">📍</div>
+                        <div class="contact-info-text">
+                            <strong>Address</strong>
+                            <p>21 Miller Alley Suite 210, Pasadena, CA 91103<br>United States</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container reveal-right">
+                    <h3>Send Message</h3>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">GALIVIEW</div>
+            <p class="footer-tagline">See Beyond Limits</p>
+            <p class="footer-company">Galiview Inc — Pasaden, CA</p>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <p class="footer-copyright">&copy; 2026 Galiview Inc. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Optional: Font Awesome for icons (if you use them) -->
-    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT_CODE.js" crossorigin="anonymous"></script>
-    <!-- Replace YOUR_FONT_AWESOME_KIT_CODE with your actual kit code if you sign up for Font Awesome -->
+    <script src="main.js"></script>
 </body>
 </html>
-
-
-
-
-
-
